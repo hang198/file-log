@@ -1,0 +1,41 @@
+[Sun Jul 28 09:06:58.095086 2019] [mpm_prefork:notice] [pid 1710] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Sun Jul 28 09:06:58.095119 2019] [core:notice] [pid 1710] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Jul 28 09:50:14.854520 2019] [php7:warn] [pid 6274] [client ::1:46628] PHP Warning:  A non-numeric value encountered in /var/www/html/backend/display_discount.php on line 22, referer: http://localhost/backend/index.php
+[Sun Jul 28 09:50:14.854792 2019] [php7:warn] [pid 6274] [client ::1:46628] PHP Warning:  A non-numeric value encountered in /var/www/html/backend/display_discount.php on line 22, referer: http://localhost/backend/index.php
+[Sun Jul 28 09:50:14.854850 2019] [php7:warn] [pid 6274] [client ::1:46628] PHP Warning:  A non-numeric value encountered in /var/www/html/backend/display_discount.php on line 23, referer: http://localhost/backend/index.php
+[Sun Jul 28 09:51:05.469580 2019] [php7:warn] [pid 6276] [client ::1:46636] PHP Warning:  A non-numeric value encountered in /var/www/html/backend/display_discount.php on line 22, referer: http://localhost/backend/index.php
+[Sun Jul 28 09:51:05.469609 2019] [php7:warn] [pid 6276] [client ::1:46636] PHP Warning:  A non-numeric value encountered in /var/www/html/backend/display_discount.php on line 22, referer: http://localhost/backend/index.php
+[Sun Jul 28 09:51:05.469616 2019] [php7:warn] [pid 6276] [client ::1:46636] PHP Warning:  A non-numeric value encountered in /var/www/html/backend/display_discount.php on line 23, referer: http://localhost/backend/index.php
+[Sun Jul 28 10:02:51.686101 2019] [php7:warn] [pid 6275] [client ::1:46680] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0, referer: http://localhost/backend/display_discount.php
+[Sun Jul 28 10:02:51.686164 2019] [php7:error] [pid 6275] [client ::1:46680] PHP Fatal error:  Unknown: Failed opening required '/var/www/html/backend/index.php' (include_path='.:/usr/share/php') in Unknown on line 0, referer: http://localhost/backend/display_discount.php
+[Sun Jul 28 10:27:56.905239 2019] [php7:notice] [pid 6277] [client ::1:46800] PHP Notice:  Undefined index: description in /var/www/html/backend/display_discount.php on line 19, referer: http://localhost/backend/index.php
+[Sun Jul 28 10:30:37.009533 2019] [php7:notice] [pid 6274] [client ::1:46812] PHP Notice:  Undefined index: description in /var/www/html/backend/display_discount.php on line 19, referer: http://localhost/backend/index.php
+[Sun Jul 28 10:31:19.618635 2019] [php7:notice] [pid 6276] [client ::1:46818] PHP Notice:  Undefined index: description in /var/www/html/backend/display_discount.php on line 19, referer: http://localhost/backend/index.php
+[Sun Jul 28 10:31:23.415239 2019] [php7:notice] [pid 6276] [client ::1:46818] PHP Notice:  Undefined index: description in /var/www/html/backend/display_discount.php on line 19, referer: http://localhost/backend/index.php
+[Sun Jul 28 10:31:27.048315 2019] [php7:notice] [pid 6276] [client ::1:46818] PHP Notice:  Undefined index: description in /var/www/html/backend/display_discount.php on line 19, referer: http://localhost/backend/index.php
+[Sun Jul 28 11:05:34.404718 2019] [php7:notice] [pid 6278] [client ::1:46922] PHP Notice:  Undefined index: description in /var/www/html/backend/display_discount.php on line 19, referer: http://localhost/backend/index.php
+[Sun Jul 28 11:05:38.618844 2019] [php7:warn] [pid 6278] [client ::1:46922] PHP Warning:  A non-numeric value encountered in /var/www/html/backend/display_discount.php on line 22, referer: http://localhost/backend/index.php
+[Sun Jul 28 11:05:38.618869 2019] [php7:warn] [pid 6278] [client ::1:46922] PHP Warning:  A non-numeric value encountered in /var/www/html/backend/display_discount.php on line 22, referer: http://localhost/backend/index.php
+[Sun Jul 28 11:05:38.618877 2019] [php7:warn] [pid 6278] [client ::1:46922] PHP Warning:  A non-numeric value encountered in /var/www/html/backend/display_discount.php on line 23, referer: http://localhost/backend/index.php
+[Sun Jul 28 13:24:53.619432 2019] [mpm_prefork:notice] [pid 1710] AH00169: caught SIGTERM, shutting down
+[Sun Jul 28 16:00:47.597591 2019] [mpm_prefork:notice] [pid 1412] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Sun Jul 28 16:00:47.617600 2019] [core:notice] [pid 1412] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Jul 28 16:39:43.071094 2019] [php7:notice] [pid 1432] [client ::1:56116] PHP Notice:  Undefined index: operator in /var/www/html/backend/result.php on line 7, referer: http://localhost/backend/
+[Sun Jul 28 16:39:43.071121 2019] [php7:notice] [pid 1432] [client ::1:56116] PHP Notice:  Undefined index: operator in /var/www/html/backend/result.php on line 11, referer: http://localhost/backend/
+[Sun Jul 28 16:39:43.071128 2019] [php7:notice] [pid 1432] [client ::1:56116] PHP Notice:  Undefined index: operator in /var/www/html/backend/result.php on line 15, referer: http://localhost/backend/
+[Sun Jul 28 16:39:43.071133 2019] [php7:notice] [pid 1432] [client ::1:56116] PHP Notice:  Undefined index: operator in /var/www/html/backend/result.php on line 19, referer: http://localhost/backend/
+[Sun Jul 28 17:00:46.249021 2019] [php7:notice] [pid 1424] [client ::1:56172] PHP Notice:  Undefined index: operator in /var/www/html/backend/result.php on line 8, referer: http://localhost/backend/
+[Sun Jul 28 17:00:46.249156 2019] [php7:notice] [pid 1424] [client ::1:56172] PHP Notice:  Undefined index: operator in /var/www/html/backend/result.php on line 12, referer: http://localhost/backend/
+[Sun Jul 28 17:00:46.249186 2019] [php7:notice] [pid 1424] [client ::1:56172] PHP Notice:  Undefined index: operator in /var/www/html/backend/result.php on line 16, referer: http://localhost/backend/
+[Sun Jul 28 17:00:46.249205 2019] [php7:notice] [pid 1424] [client ::1:56172] PHP Notice:  Undefined index: operator in /var/www/html/backend/result.php on line 20, referer: http://localhost/backend/
+[Sun Jul 28 18:05:13.002266 2019] [mpm_prefork:notice] [pid 1412] AH00169: caught SIGTERM, shutting down
+[Sun Jul 28 18:45:32.475980 2019] [mpm_prefork:notice] [pid 1375] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Sun Jul 28 18:45:32.492681 2019] [core:notice] [pid 1375] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Jul 28 21:46:00.377363 2019] [mpm_prefork:notice] [pid 1375] AH00169: caught SIGTERM, shutting down
+[Mon Jul 29 12:46:54.664058 2019] [mpm_prefork:notice] [pid 1349] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jul 29 12:46:54.759827 2019] [core:notice] [pid 1349] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jul 29 13:25:51.199668 2019] [mpm_prefork:notice] [pid 1349] AH00169: caught SIGTERM, shutting down
+[Mon Jul 29 13:44:00.927405 2019] [mpm_prefork:notice] [pid 1440] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jul 29 13:44:00.946736 2019] [core:notice] [pid 1440] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jul 29 14:20:56.709177 2019] [php7:error] [pid 1464] [client ::1:35218] script '/var/www/html/backend/test.php' not found or unable to stat
+[Mon Jul 29 14:21:23.125848 2019] [php7:notice] [pid 1459] [client ::1:35232] PHP Notice:  Undefined index: username in /var/www/html/backend/test/test-login.php on line 35, referer: http://localhost/backend/test/test-login.php
